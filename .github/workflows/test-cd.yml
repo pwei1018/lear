@@ -6,6 +6,10 @@ on:
       - test-cd
     paths:
       - "colin-api/**"
+      - "legal-api/**"
+      - "queue_services/entity-emailer/**"
+      - "queue_services/entity-filer/**"
+      - "queue_services/common/**"
 
 jobs:
   test-cd:
